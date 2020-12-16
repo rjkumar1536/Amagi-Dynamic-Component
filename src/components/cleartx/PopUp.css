@@ -1,0 +1,40 @@
+.popup{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:50%;
+    left:50%;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px 100vw rgba(0,0,0,0.5);
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+.leftSection{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.inline{
+    margin: 0.5rem;
+}
+.rightSection{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.ok{
+    margin: 0.5rem;;
+}
